@@ -1,0 +1,104 @@
+.sub-header-box {
+  /* padding: 10px; */
+  padding-left: 10px;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 98%;
+  margin: auto !important;
+  min-height: 40px;
+  display: flex;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.sub-header-box-NavLink {
+  text-decoration: none;
+  color: rgb(182, 179, 179);
+  font-weight: bold !important;
+  margin-right: 18px !important;
+  padding: 6px;
+  /* padding-bottom: 7px; */
+
+  /* border-radius: 5px; */
+}
+
+.sub-header-box-NavLink:hover {
+  /* text-decoration: underline; */
+  color: rgb(7, 7, 124);
+}
+
+.timeline-container {
+  background-color: white;
+  width: 97%;
+  min-height: 92vh;
+  /* height:10vh; */
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+body {
+  background-color: rgb(203, 200, 200);
+}
+.circle {
+  height: 20px;
+  width: 20px;
+  background-color: green;
+  display: inline-block;
+  margin: 3px;
+  border-radius: 50%;
+}
+.input-container {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second-tile-class {
+  border: 1px solid lightGray;
+  margin: auto;
+  padding-left: 10px;
+  border-radius: 15px;
+  /* display: flex; */
+  align-items: center;
+}
+.datepicker {
+  height: 4.9vh;
+  width: 24vh;
+  border: 1px solid rgb(187, 185, 185);
+  border-radius: 5px;
+}
+
+.class-calendar {
+  border: none !important;
+  height: 32vh;
+}
+.class-tile {
+  background-color: transparent !important;
+  color: black !important;
+  font-weight: 500 !important;
+  width: 10px !important;
+  height: 50px !important;
+  border: 1px solid white !important;
+  /* padding: 10px !important; */
+  border-radius: 50%;
+}
+.class-tile:hover {
+  background-color: rgb(200, 200, 200) !important;
+}
+
+.react-calendar__month-view__weekdays__weekday abbr {
+  text-decoration: none;
+  color: rgb(151, 149, 149);
+}
+.highlighted {
+  background-color: orange !important;
+}
+
+.light-text {
+  color: rgba(128, 128, 128, 0.504) !important;
+}
